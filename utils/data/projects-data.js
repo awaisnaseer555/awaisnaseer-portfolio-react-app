@@ -1,16 +1,15 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Regulatory, Risk & Compliance SaaS Applications',
+        description: "Ruleguard is an end-to-end GRC platform that helps financial services firms streamline compliance. It automates regulatory processes, reduces risk, and replaces manual monitoring with advanced automation. Trusted by banks, insurers, asset managers, and wealth management firms worldwide, Ruleguard delivers solutions for risk management, employee compliance, and consumer duty." ,       tools: ['VueJS', '.Net', 'JavaScript', 'VUEX', 'JEST', 'Cypress', 'TypeScript', 'GitHub Actions'],
+        role: 'Senior Software Engineer - Front End Engineer',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Car Insurance Web App',
+        name: 'Car Insurance Widget Applications',
         description: 'I have designed and developed a full-stack web app for Car insurance Company in Denmark. I convert Figma design into responsive Web Application the UI using VueJS, ReactJS, Typescript, TailwindCSS, and  PINIA for state management, The app supports multiple languages. I developed the API using Nodejs, and CI/CD pipelines using Azure DevOps. we used JIRA for project management and GitHub for version control. The app features role-based authentication, and a custom-built editor for creating and managing insurance policies.',
         tools: ['VueJS', 'PINIA', 'vue-decorators', 'Tailwind CSS', "TypeScript", "MySQL", "Azure DevOps", 'NodeJS'],
         role: 'Associate Principal Software Engineer - Front End Developer',
@@ -20,7 +19,7 @@ export const projectsData = [
     {
         id: 3,
         name: 'Bank Al Habib Pvt Ltd',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
+        description: 'I have worked on the Bank Al Habib Pvt Ltd project, which is a banking application. I have developed the front-end using VueJS, Bootstrap-vue, SCSS, and Xstate for state management. I have also worked on the backend using JAVA - Quarkus for API implementation. The application features role-based authentication, and a custom-built editor for creating and managing banking policies.',
         tools: ['VueJS', 'Bootstrap-vue', 'SCSS', 'Xstate ', 'FSM', 'ElementPlus', 'Storybook', 'JAVA - Quarkus', 'vuex', 'Vue Router', 'Axios'],
         code: '',
         role: 'Software Design Engineer - Front End developer',
