@@ -162,7 +162,7 @@ export const personalData = {
   facebook: "",
   linkedIn: "https://www.linkedin.com/in/mohammad-awais-naseer-1b3504171/",
   twitter: "",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  stackOverflow: "",
   leetcode: "https://leetcode.com/awaisnaseer555/",
   devUsername: "awaisnaseer555",
   resume:
