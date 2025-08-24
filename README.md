@@ -97,6 +97,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
+<!--
 ### Running with Docker Compose
 
 1. **Build Docker Image and Run Container**:
@@ -108,9 +109,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 2. **Access the Application**:
    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
----
+--- -->
 
-### Building the Docker Image
+<!-- ### Building the Docker Image
 
 1. **Build the Docker Image using Dockerfile.dev**:
 
@@ -122,7 +123,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
    ```bash
    docker run -p 3000:3000 nextjs-app
-   ```
+   ``` -->
 
 3. **Access the Application**:
    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
@@ -159,7 +160,7 @@ export const personalData = {
   phone: "+92 3355544431",
   address: "Rawalpindi, Pakistan",
   github: "https://github.com/awaisnaseer555",
-  facebook: "",
+  facebook: "https://www.facebook.com/awaisnaseer55",
   linkedIn: "https://www.linkedin.com/in/mohammad-awais-naseer-1b3504171/",
   twitter: "",
   stackOverflow: "",
@@ -213,19 +214,6 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 5. Click on **App Passwords**. You may need to enter your Google account password again.
 6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
 7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
-
-## Create a Telegram Bot
-
-1. **Open Telegram** and search for the user **@BotFather**.
-2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
-3. Choose a name for your bot.
-4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
-5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
-6. To get your chat ID:
-   - Open your bot in Telegram and send it a message.
-   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
-     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
 
 ## Fetching Blog from dev.to
 

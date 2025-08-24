@@ -3,7 +3,7 @@ export const contactsData = {
     phone: '+92 3355544431',
     address: 'Rwalpindi, Pakistan',
     github: 'https://github.com/awaisnaseer555',
-    facebook: '',
+    facebook: 'https://www.facebook.com/awaisnaseer55',
     linkedIn: 'https://www.linkedin.com/in/mohammad-awais-naseer-1b3504171/',
     twitter: 'https://twitter.com/awaisnaseer555',
     stackOverflow: '',
