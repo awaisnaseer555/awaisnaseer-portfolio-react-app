@@ -167,7 +167,7 @@ export const personalData = {
   leetcode: "https://leetcode.com/awaisnaseer555/",
   devUsername: "awaisnaseer555",
   resume:
-    "https://drive.google.com/file/d/1bBIeNCFG938nqz6VSAkjO1MFJEFmZWKh/view?usp=drive_link",
+    "https://drive.google.com/file/d/1bj0qfwMO72BPMZnWyarp__F0jeU0f5OE/view?usp=sharing",
 };
 ```
 
