@@ -20,7 +20,7 @@ export const experiences = [
   {
     id: 4,
     title: "Application Developer",
-    company: "UforiaInfo Tech",
+    company: "Uforia InfoTech",
     duration: "Apr 2019 - Dec 2020"
   },
   {
