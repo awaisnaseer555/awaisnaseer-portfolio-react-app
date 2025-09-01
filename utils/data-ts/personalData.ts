@@ -7,7 +7,7 @@ export interface PersonalData {
   phone: string;
   address?: string;
   github: string;
-  facebook?: string;
+  facebook?: string | undefined;
   linkedIn: string;
   twitter?: string;
   stackOverflow?: string;
