@@ -77,13 +77,13 @@ const ContactSection: React.FC = () => {
               />
             </Link>
             )}
-            {personalData.facebook && (
-            <Link target="_blank" href={personalData.facebook}>
+            {false && (
+            <a target="_blank" href={personalData.facebook as string}>
               <FaFacebook
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-            </Link>
+            </a>
             )}
           </div>
         </div>
