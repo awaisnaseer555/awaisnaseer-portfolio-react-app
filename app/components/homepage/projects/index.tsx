@@ -1,4 +1,5 @@
-import { projectsData } from '@/utils/data/projects-data';
+import React from 'react';
+import { projectsData } from '@/utils/data-ts/projectsData';
 import ProjectCard from './project-card';
 
 const Projects = () => {
