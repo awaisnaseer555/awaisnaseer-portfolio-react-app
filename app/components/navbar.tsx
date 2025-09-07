@@ -1,8 +1,7 @@
 // @flow strict
+import React from "react";
 import Link from "next/link";
-
-
-function Navbar() {
+const Navbar: React.FC = () => {
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
@@ -44,6 +43,6 @@ function Navbar() {
       </div>
     </nav>
   );
-};
+ }
 
 export default Navbar;

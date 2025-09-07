@@ -6,10 +6,21 @@ import { useState } from "react";
 import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
 
+interface UserInputType {
+  name: string;
+  email: string;
+  message: string;
+}
+
+interface ErrorType {
+  email: boolean;
+  required: boolean;
+}
+
 function ContactForm() {
-  const [error, setError] = useState({ email: false, required: false });
-  const [isLoading, setIsLoading] = useState(false);
-  const [userInput, setUserInput] = useState({
+  const [error, setError] = useState<ErrorType>({ email: false, required: false });
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [userInput, setUserInput] = useState<UserInputType>({
     name: "",
     email: "",
     message: "",
@@ -21,7 +32,7 @@ function ContactForm() {
     }
   };
 
-  const handleSendMail = async (e) => {
+  const handleSendMail = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     if (!userInput.email || !userInput.message || !userInput.name) {
@@ -35,19 +46,15 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
+      await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput
       );
 
       toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
-    } catch (error) {
-      toast.error(error?.response?.data?.message);
+      setUserInput({ name: "", email: "", message: "" });
+    } catch (error: any) {
+      toast.error( error?.response?.data?.message || (error as Error)?.message || "Something went wrong!");
     } finally {
       setIsLoading(false);
     };
@@ -64,7 +71,7 @@ function ContactForm() {
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="text"
-              maxLength="100"
+              maxLength={100}
               required={true}
               onChange={(e) => setUserInput({ ...userInput, name: e.target.value })}
               onBlur={checkRequired}
@@ -77,7 +84,7 @@ function ContactForm() {
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="email"
-              maxLength="100"
+              maxLength={100}
               required={true}
               value={userInput.email}
               onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
@@ -93,12 +100,12 @@ function ContactForm() {
             <label className="text-base">Your Message: </label>
             <textarea
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
-              maxLength="500"
+              maxLength={500}
               name="message"
               required={true}
               onChange={(e) => setUserInput({ ...userInput, message: e.target.value })}
               onBlur={checkRequired}
-              rows="4"
+              rows={5}
               value={userInput.message}
             />
           </div>

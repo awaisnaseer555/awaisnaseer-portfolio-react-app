@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portfolio of Awais Naseer - Principal Software Engineer",
-  description: "This is the portfolio of Awais Naseer, a self-taught full-stack developer with a passion for continuous learning. I enjoy exploring new technologies, collaborating with others, and taking on challenging projects. As a quick learner, I’m always eager to grow and push my limits."
+  description: "Portfolio site of Awais Naseer, a self-taught full-stack developer with a passion for continuous learning. I enjoy exploring new technologies, collaborating with others, and taking on challenging projects. As a quick learner, I’m always eager to grow and push my limits."
 };
 
 export default function RootLayout({ children }) {
