@@ -5,17 +5,17 @@ interface Project {
     tools: string[];
     role: string;
     code: string;
-    demo: string;
+    demo: string[] | string;
 }
 
 export const projectsData: Project [] = [
     {
         id: 1,
         name: 'Regulatory, Risk & Compliance SaaS Applications',
-        description: "Ruleguard is an end-to-end GRC platform that helps financial services firms streamline compliance. It automates regulatory processes, reduces risk, and replaces manual monitoring with advanced automation. Trusted by banks, insurers, asset managers, and wealth management firms worldwide, Ruleguard delivers solutions for risk management, employee compliance, and consumer duty." ,       tools: ['NextJS', 'SSR', 'VueJS', '.Net', 'JavaScript', 'VUEX', 'JEST', 'Cypress', 'TypeScript', 'GitHub Actions'],
+        description: "Working with an end-to-end GRC platform that helps financial services firms streamline compliance. It automates regulatory processes, reduces risk, and replaces manual monitoring with advanced automation. Trusted by banks, insurers, asset managers, and wealth management firms worldwide, Ruleguard delivers solutions for risk management, employee compliance, and consumer duty." ,       tools: ['NextJS', 'SSR', 'VueJS', 'JavaScript', 'VUEX', 'JEST', 'Cypress', 'TypeScript', 'GitHub Actions'],
         role: 'Senior Software Engineer - Front End Engineer',
         code: '',
-        demo: '',
+        demo: ['https://www.ruleguard.com'],
     },
     {
         id: 2,
@@ -24,24 +24,24 @@ export const projectsData: Project [] = [
         tools: ['VueJS', 'PINIA', 'vue-decorators', 'Tailwind CSS', "TypeScript", "Azure DevOps", 'NodeJS'],
         role: 'Associate Principal Software Engineer - Front End Developer',
         code: '',
-        demo: '',
+        demo: ['https://www.fdm.dk'],
     },
     {
         id: 3,
         name: 'Banking Applications',
         description: 'I have worked on the Bank Al Habib Pvt Ltd project, which is a banking application. I have developed the front-end using VueJS, Bootstrap-vue, SCSS, and Xstate for state management. I have also worked on the backend using JAVA - Quarkus for API implementation. The application features role-based authentication, and a custom-built editor for creating and managing banking policies.',
-        tools: ['VueJS', 'NextJS', 'Bootstrap-vue', 'SCSS', 'Xstate ', 'FSM', 'ElementPlus', 'Storybook', 'JAVA - Quarkus', 'vuex', 'Vue Router', 'Axios'],
+        tools: ['VueJS', 'NextJS', 'Bootstrap-vue', 'SCSS', 'XState ', 'FSM', 'ElementPlus', 'Storybook', 'JAVA - Quarkus', 'vuex', 'Vue Router', 'Axios'],
         code: '',
         role: 'Software Design Engineer - Front End developer',
-        demo: '',
+        demo:'',
     },
     {
         id: 4,
-        name: 'Ad Viddy',
-        description: "My team and I developed a canvas-based application called Ad Viddy. As the front-end developer, I implemented canvas elements for creating ads, incorporating audio transitions, images, and special effects using FabricJS and HowlerJS.",
-        tools: ['Vanilla JS', 'JQuery', 'FabricJS', 'HowlerJS', "HTML5/CSS3", 'Bootstrap'],
+        name: 'Canvas based Applications',
+        description: "My team and I developed multiple canvas-based application called e.g GlorifyApp, Ad Viddy, Meme Generator etc. As the front-end developer, I implemented canvas elements for creating ads, incorporating audio transitions, images, and special effects using FabricJS and HowlerJS.",
+        tools: ['FabricJS', 'Vanilla JS', 'JQuery', 'HowlerJS', "HTML5/CSS3", 'Bootstrap'],
         code: '',
-        demo: 'adviddy.com',
+        demo: ['https://adviddy.com', 'https://glorify.com', 'https://www.chase.com'],
         role: 'Application Developer - Frontend',
     }
 ];
