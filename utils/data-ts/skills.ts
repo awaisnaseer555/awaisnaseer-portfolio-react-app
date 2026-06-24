@@ -1,4 +1,5 @@
 export const skillsData: string [] = [
+  'Odoo',
   'Vue',
   'Nuxt JS',
   'vuetifyjs',
