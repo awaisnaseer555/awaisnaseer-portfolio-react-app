@@ -18,7 +18,7 @@ export const projectsData: Project [] = [
         tools: ['NestJS', 'Next.js', 'ReactJS', 'MongoDB', 'MySQL', 'TailwindCSS', 'TypeScript'],
         role: 'Full Stack MERN Engineer',
         code: '',
-        demo: ['https://app.casemanagementhub.org'],
+        demo: ['https://casemanagementhub.org'],
     },
     {
         id: 2,
