@@ -20,7 +20,7 @@ export const personalData: PersonalData = {
   name: "MOHAMMAD AWAIS NASEER",
   profile: '/profile.png',
   designation: "Principal Software Engineer",
-  description: "I am a professional and enthusiastic Full-Stack Developer with over 5+ years of experience. I am a quick learner with a self-driven attitude and a passion for problem-solving. My core expertise is in JavaScript, with strong skills in React.js, Vue.js, TypeScript, and TailwindCSS on the frontend, and Node.js, Express, MongoDB, and Django on the backend. I also specialize in CI/CD pipelines, Vercel, and Netlify deployments, and love building scalable, performant, and user-friendly applications. I am always eager to learn new technologies and open to opportunities that align with my skills and interests.",
+  description: "Full-Stack Developer with 5+ years of experience creating scalable and high-performance web applications. Skilled in React.js, Vue.js, TypeScript, TailwindCSS, Node.js, Express, MongoDB, Django, and Odoo development. Passionate about clean architecture, seamless user experiences, and modern deployment workflows using CI/CD, Vercel, and Netlify.",
   email: 'awaisnaseer555@gmail.com',
   phone: '+92 3355544431',
   address: 'Rawalpindi, Pakistan',

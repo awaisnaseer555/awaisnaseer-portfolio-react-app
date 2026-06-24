@@ -118,17 +118,19 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">title:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Full-Stack Developer | Frontend Specialist</span>
+                <span className="text-amber-300">Full-Stack Developer | Odoo Specialist</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills: </span>
                 <span className="text-gray-400">{`['`}</span>
+                 <span className="text-amber-300">ReactJS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Odoo</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">VueJS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PINIA & VUEX</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">ReactJS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -140,7 +142,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Azure CI/CD</span>
+                <span className="text-amber-300">Azure | github Actions CI/CD</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
